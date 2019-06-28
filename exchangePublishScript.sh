@@ -4,7 +4,7 @@
 repository="https://github.com/open-horizon/examples.git"
 
 # text file containing servies and patterns to publish
-curl https://raw.githubusercontent.com/open-horizon/examples/master/tools/blessedSamples.txt -O
+curl https://raw.githubusercontent.com/t-fine/testScript/blessedSamples.txt -O
 
 input="$(dirname $0)/blessedSamples.txt"
 #input="$(curl https://raw.githubusercontent.com/open-horizon/examples/master/tools/blessedSamples.txt)"
